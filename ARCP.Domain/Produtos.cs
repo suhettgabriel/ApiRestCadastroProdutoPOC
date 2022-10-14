@@ -2,9 +2,11 @@
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace ARCP.Domain
 {
+    [Table("Produtos")]
     public class Produtos
     {
         [Key]
